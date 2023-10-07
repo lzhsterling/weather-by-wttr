@@ -25,8 +25,8 @@ jobs:
         uses: dawidd6/action-send-mail@v3
         with:
           # 这些是发送邮件需要配置的参数，更多详细的说明请访问具体的仓库
-          server_address: smtp.exmail.qq.com
-          server_port: 465
+          server_address: smtp.office365.com
+          server_port: 587
           # 这些sectret的环境变量需要配置在setting中的secret下
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
