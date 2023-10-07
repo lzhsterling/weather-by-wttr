@@ -32,5 +32,5 @@ jobs:
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: 天气预报-天 (${{env.REPORT_DATE}})
           html_body: file://result.html
-          to: 2441555908@qq.com
+          to: outlook_D665D526257DD18C@outlook.com
           from: GitHub Actions
